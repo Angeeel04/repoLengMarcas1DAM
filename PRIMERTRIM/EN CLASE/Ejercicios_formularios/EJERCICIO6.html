@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJERCICIO 5</title>
+        <style>
+            body{
+                background-color: red;
+            }
+
+            p{
+                font-size: 40px;
+                margin: 0px;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <p>Datos personales:</p>
+
+        <br> <hr> <br>
+
+        <form action = "mailto:angel.chavez3@educa.madrid.org" method ="post" enctype = "multipart/form-data">
+
+            Nombre: <br>
+
+            <input type="text" name="nombre" size="35"><br><br>
+
+            Apellido: <br>
+            <input type="text" name="curso" size="70" ><br><br>
+            
+            Estado civil :
+            <select name="estado_civil">
+                <option value= "solter@" selected>Solter@</option>
+                <option value= "casada@"> Casad@ </option>
+                <option value= "viud@"> Viud@ </option>
+            </select>
+
+            <br><br>
+
+            Sexo: <br>
+
+            <input type="radio" name="Hombre" value="Hombre">Hombre
+            <input type="radio" name="Mujer" value="Mujer">Mujer
+
+            <br><br><br><br>
+
+            <hr> <br>
+
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos"><br><br>
+
+            <hr> <br>
+
+        </form>
+
+    </body>
+
+</html>

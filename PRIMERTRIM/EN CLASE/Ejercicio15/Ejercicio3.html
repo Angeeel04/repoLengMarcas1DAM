@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+
+  <style>
+      
+    table {
+      border: 1px black;
+      border-collapse: separate;
+		  border-style: double;
+    }
+	  
+	  tr {
+      border: 1px black;
+		  border-style: double;
+      border-collapse: separate;
+      text-align: center;
+    }
+
+    td {
+      border: 1px black;
+		  border-style: double;
+      border-collapse: separate;
+      height: 20px;
+      width: 60px;
+      text-align: left;
+    }
+
+    #table1{
+      border: 3px dotted green;
+    }
+
+    #table2{
+      border: 3px dashed red;
+    }
+
+    #table3{
+      border: 3px dashed red;
+    }
+
+    #table4{
+      border: 3px dotted green;
+    }
+
+    #quitar{
+      border: 0px;
+		  border-style: none;
+      border-collapse: collapse;
+    }
+
+    #centrar{
+      text-align: center;
+    }
+
+  </style>
+
+  </head>
+
+  <body>
+
+    <h2>EJERCICIOS DE TABLAS</h2>
+
+    <h4>Tabla Nº 13</h4>
+      <table>
+        <tr>
+          <td>Celda1</td>
+          <td>
+            <table id="table1">
+              <tr>
+                <td id="quitar">Celda2.1</td>
+                <td id="quitar">Celda2.2</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda2.3</td>
+                <td id="quitar">Celda2.4</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda2.5</td>
+                <td id="quitar">Celda2.6</td>
+              </tr>
+            </table>
+          </td>
+          <td>Celda3</td>
+          <td>Celda4</td>
+        </tr>
+
+        <tr>
+          <td>Celda5</td>
+          <td>Celda6</td>
+          <td>
+            <table id="table2">
+              <tr>
+                <td id="quitar">Celda2.1</td>
+                <td id="quitar">Celda2.2</td>
+                <td id="quitar">Celda2.3</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda2.4</td>
+                <td id="quitar">Celda2.5</td>
+                <td id="quitar">Celda2.6</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda2.7</td>
+                <td id="quitar">Celda2.8</td>
+                <td id="quitar">Celda2.9</td>
+              </tr>
+            </table>
+          </td>
+          <td>Celda8</td>
+        </tr>
+
+        <tr>
+          <td>
+            <table id="table3">
+              <tr>
+                <td id="quitar">Celda9.1</td>
+                <td id="quitar">Celda9.2</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda9.3</td>
+                <td id="quitar">Celda9.4</td>
+              </tr>
+            </table>
+          </td>
+          <td>Celda10</td>
+          <td>Celda11</td>
+          <td>
+            <table id="table4">
+              <tr>
+                <td id="quitar">Celda12.1</td>
+                <td id="quitar">Celda12.2</td>
+                <td id="quitar">Celda12.3</td>
+              </tr>
+              <tr>
+                <td id="quitar">Celda12.4</td>
+                <td id="quitar">Celda12.5</td>
+                <td id="quitar">Celda12.6</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>Celda13</td>
+          <td>Celda14</td>
+          <td>Celda15</td>
+          <td>Celda16</td>
+        </tr>
+      </table>
+
+<br>
+
+<p id="centrar"> <a href="Ejercicio2.html"> Anterior</a> </p>
+
+  </body>
+
+</html>

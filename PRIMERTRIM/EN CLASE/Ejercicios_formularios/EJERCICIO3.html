@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJERCICIO 3</title>
+    </head>
+
+    <body>
+
+        <form action = "mailto:dudas@academiadiez.com" method ="post" enctype = "multipart/form-data">
+
+            <fieldset>
+                <legend>Consulta tu duda</legend>
+
+                <input type="radio" name="asignatura" value="Lengua">Lengua <br>
+
+                <input type="radio" name="asignatura" value="Matemáticas">Matemáticas <br>
+
+                <input type="radio" name="asignatura" value="Historia"> Historia <br>
+
+                <input type="radio" name="asignatura" value="Biologia">Biologia <br>
+
+                <input type="radio" name="asignatura" value="Inglés">Inglés <br><br>
+
+                <input type="checkbox" value="Primaria">Primaria
+                <input type="checkbox" value="ESO">ESO
+                <input type="checkbox" value="Bachillerato">Bachillerato <br><br>
+
+                <textarea name = "duda" rows="5" cols="30" placeholder="Escribe aquí tu duda, por favor"></textarea> <br><br>
+
+                Tipo de centro en el que estudias:
+                <select name="centro_estudio">
+                    <option value= "Publico" selected>Publico</option>
+                    <option value= "Concertado"> Concertado </option>
+                    <option value= "Privado"> Privado </option>
+                </select>
+
+                <br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todos los datos introducidos"> <br><br>
+
+            </fieldset>
+
+        </form>
+
+    </body>
+
+</html>
