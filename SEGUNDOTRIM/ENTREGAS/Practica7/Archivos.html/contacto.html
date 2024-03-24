@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Archivos.css/contactoStyle.css">
+    <!--Hecho por Ángel Chávez 1ºDAM-->
+    <title>ONG CARPINCHOSA | UNETE </title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logoHeader">
+            <div style="padding-top: 10px; padding-bottom: 10px; width: 3.5em;"><img src="../Archivos.imagenes/logo.png"
+                    width="90px"></div>
+            <div style="width: 9.6em;">ONG CARPINCHOSA</div>
+        </a>
+
+        <div class="enlacesHeader">
+            <ul>
+                <li><a href="../index.html" class="enlace">INICIO</a></li>
+                <li><a href="carpinchadas.html" class="enlace">CARPINCHADAS</a></li>
+                <li><a href="galeria.html" class="enlace">GALERIA</a></li>
+                <li><a href="contacto.html" class="enlace">UNETE</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 style="font-family: 'HORIZON';">UNETE A NUESTRA ONG</h1>
+            <article>
+                <span style="font-size: 2em;">INGRESA TUS DATOS</span>
+
+                <form method="post" action="boletin.php">
+                    <div class="divForm">
+                        <label for="name">NOMBRE:</label>
+                        <input type="text" id="name" required> <br><br>
+
+                        <label for="edad">EDAD:</label>
+                        <input type="number" id="edad" required><br><br>
+
+                        <label for="numero">NUMERO:</label>
+                        <input type="text" id="numero" required><br><br>
+
+                        <label for="noticias">NEWSLETTER:</label>
+
+                        <input type="checkbox" id="noticias">
+                    </div>
+
+                    <div class="divForm">
+                        <label for="apellido">APELLIDO:</label>
+                        <input type="text" id="apellido" required><br><br>
+
+                        <label>SEXO:</label>
+                        <input type="radio" id="masc" name="sexo" value="MASCULINO" class="radio"> MASCULINO
+                        <input type="radio" id="fem" name="sexo" value="FEMENINO" class="radio">FEMENINO
+
+                        <br><br>
+
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" required><br><br>
+
+                        <label for="dieccion">DIRECCION:</label>
+                        <input type="text" id="direccion" required><br><br>
+                    </div>
+
+                    <div class="botones">
+                        <input type="reset" value="BORRAR DATOS" class="botonesForm">
+                        <input type="submit" value="ENVIAR" class="botonesForm"><br>
+                    </div>
+                </form>
+            </article>
+        </section>
+
+        <aside>
+            <h1 style="font-family: 'HORIZON'; font-size: 0.9em;">LOS CARPINCHOS ESTAREMOS FELICES DE RECIBIR A UN NUEVO
+                COLABORADOR</h1>
+            <img src="../Archivos.imagenes/CONTACTO/img1.jpeg" style="width: 100%; margin-bottom: 1%;">
+            <span style="font-size: 1em;">
+                ¡Únete a la manada y sé parte del cambio!<br><br>
+
+                Al suscribirte a ONG CARPINCHOSA, te convertirás en un gran carpidefensor. <br><br>
+                Recibirás actualizaciones exclusivas sobre nuestros proyectos, noticias emocionantes sobre
+                nuestros carpinchos y oportunidades especiales para participar en eventos y actividades de
+                voluntariado..</span>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="cuadroFooter">
+            <h1 style="font-family: 'HORIZON'; margin-bottom: 5%; color: black;">CONTACTO</h1>
+            <span class="enlacesFooter">
+                Correo electrónico: info@ongcarpinchosa.com <br><br>
+                Teléfono: +1 (123) 456-7890 <br><br>
+                Dirección: Calle Carpincho, Nº 123, Ciudad Feliz, País Carpinchón <br><br>
+            </span>
+        </div>
+
+        <div class="cuadroFooter">
+            <h1 style="font-family: 'HORIZON';margin-bottom: 5%; color: black;">REDES SOCIALES</h1>
+            <span class="enlacesFooter">
+                <a href="#">Facebook</a> <br><br> 
+                <a href="#">Twitter</a> <br><br> 
+                <a href="#">Instagram</a>
+            </span>
+        </div>
+
+        <div class="cuadroFooter">
+            <h1 style="font-family: 'HORIZON'; margin-bottom: 5%; color: black;">ENLACES RAPIDOS</h1>
+            <span class="enlacesFooter">
+                <a href="./../index.html">Inicio</a> <br><br> 
+                <a href="./carpinchadas.html">Carpinchadas</a> <br><br> 
+                <a href="./galeria.html">Galería</a> <br><br> 
+                <a href="./contacto.html">Unete</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

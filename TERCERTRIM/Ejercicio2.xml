@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+    <equipos1>
+        <nombre>REAL MADRID</nombre>
+        <ciudad>MADRID</ciudad>
+        <entrenador>CARLO ANCELOTTI</entrenador>
+        <jugador1>JUDE BELLINGHAM</jugador1>
+        <jugador2>VINICIUS JUNIOR</jugador2>
+    </equipos1>
+
+    <equipos2>
+        <nombre>FC BARCELONA</nombre>
+        <ciudad>BARCELONA</ciudad>
+        <entrenador>XAVI HERNANDEZ</entrenador>
+        <jugador1>JUDE BELLINGHAM</jugador1>
+        <jugador2>VINICIUS JUNIOR</jugador2>
+    </equipos2>
+</equipos>

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('DM_Serif_Display/DMSerifDisplay-Regular.ttf');
+}
+a{
+    text-decoration: none;
+    color: #EDBC1C;
+}
+
+body{
+    background-image: url("../IMAGENES/fondo.jpg");
+    font-family:'fuente';
+    background-size: cover;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #010f1e;
+}
+
+h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.articuloSection{
+    width: auto;
+    height: 740px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #0c1222;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    position: relative;
+}
